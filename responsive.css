@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    #linkContact, #linkAbout {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navWrap {
+        justify-content: center;
+    }
+
+    #navWrapRight {
+        margin-top: -10px;
+    }
+}
