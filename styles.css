@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .headerWrap {
     position: fixed;
     top: 0;
@@ -46,4 +50,69 @@ body {
 #linkContact, #linkAbout{
     margin-left: 80px;
 }
+
+#secHero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 90px;
+}
+
+#heroLeftTitle {
+    font-family: 'Bitter', serif;
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#heroLeftDesc {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+#heroBtn {
+    display: flex;
+    flex-direction: row;
+}
+
+.btnHero {
+    padding: 15px 60px;
+    border: none;
+    border-radius: 10px;
+}
+
+#btnOrder {
+    background-color: #4b8b26;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#btnCnt {
+    background-color: #212121;
+    color: #fff;
+    font-weight: bold;
+}
+
+.heroRight {
+    width: 50%;
+    overflow: hidden;
+}
+
+#heroImg {
+    width: 150%;
+    object-fit: cover;
+    margin-left: -200px;
+    -webkit-filter: drop-shadow(-50px 50px 50px #878787);
+}
+
+
 
