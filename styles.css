@@ -16,6 +16,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .navWrap {
@@ -52,17 +54,18 @@ body {
 }
 
 #secHero {
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .heroLeft {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 90px;
+    padding-left: 50px;
 }
 
 #heroLeftTitle {
@@ -105,13 +108,16 @@ body {
 .heroRight {
     width: 50%;
     overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
 }
 
 #heroImg {
     width: 150%;
     object-fit: cover;
-    margin-left: -200px;
-    -webkit-filter: drop-shadow(-50px 50px 50px #878787);
+    -webkit-filter: drop-shadow(50px 50px 50px #878787);
 }
 
 

@@ -1,28 +1,31 @@
 @media screen and (max-width: 768px) {
-    .navWrapLogoandLink {
-        margin-right: 120px;
-    }
-    
-    #linkContact, #linkAbout {
-        margin-left: 40px;
-    }
-
     #secHero {
         margin-top: 90px;
         flex-direction: column;
         justify-content: center;
     }
 
+    .heroLeft {
+        padding-left: 0;
+    }
+
     .heroWidth {
         width: 100%;
     }
 
-    .heroLeft {
-        margin-left: 40px;
+    #heroLeftCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .justify_wd {
+        text-align: center;
     }
 
     #heroImg {
-        padding-right: 90px;
+        -webkit-filter: drop-shadow(0 50px 50px #878787);
     }
 }
 
