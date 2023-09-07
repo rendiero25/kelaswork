@@ -25,7 +25,7 @@
     }
 
     #heroImg {
-        -webkit-filter: drop-shadow(0 50px 50px #878787);
+        -webkit-filter: drop-shadow(0 50px 30px #878787);
     }
 }
 
@@ -43,12 +43,20 @@
     }
 
     #secHero {
-        margin-top: 90px;
+        margin: 150px 15px 0 15px;
         flex-direction: column;
         justify-content: center;
     }
 
     #heroLeftTitle {
         font-size: 40px;
+    }
+
+    .btnHero {
+        padding: 15px 45px;
+    }
+
+    #heroImg {
+        -webkit-filter: drop-shadow(0 50px 30px #878787);
     }
 }

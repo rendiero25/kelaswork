@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -117,7 +118,7 @@ body {
 #heroImg {
     width: 150%;
     object-fit: cover;
-    -webkit-filter: drop-shadow(50px 50px 50px #878787);
+    -webkit-filter: drop-shadow(50px 50px 30px #878787);
 }
 
 
