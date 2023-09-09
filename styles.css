@@ -9,6 +9,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.spe_font {
+    font-family: 'Bitter', serif;
+}
+
 .cursor {
     cursor: pointer;
 }
@@ -55,7 +59,6 @@ body {
 }
 
 #secHero {
-    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,7 +73,6 @@ body {
 }
 
 #heroLeftTitle {
-    font-family: 'Bitter', serif;
     font-size: 100px;
     font-weight: 800;
     margin-bottom: 10px;
@@ -121,5 +123,106 @@ body {
     -webkit-filter: drop-shadow(50px 50px 30px #878787);
 }
 
+#sec-About {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#sec-about-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-about-title-word {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sec-about-title-line {
+    background-color: #4b8b26;
+    width: 510px;
+    height: 4px;
+    margin-top: 5px;
+}
+
+#secAboutctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#secAboutctn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#secAbout_ctn {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+}
+
+#secAbout_ctn2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+}
+
+#secAbout_ctn_title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#secAbout_ctn_desc {
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+#secAbout_btn {
+    background-color: #4b8b26;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 200px;
+}
+
+#secAbout_img {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+#secAbout_img2 {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+#secAbout_imgdiv {
+    overflow: hidden;
+    height: 350px;
+    width: 600px;
+    border-radius: 8px;
+}
+
+#pic1 {
+    object-fit: cover;
+    width: 600px;
+}
 
 
