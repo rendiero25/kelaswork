@@ -54,6 +54,17 @@
     .pic-top {
         order: 2;
     }
+
+    #card-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #card-two {
+        margin: 70px 0;
+    }
 }
 
 @media screen and (max-width: 375px) {
