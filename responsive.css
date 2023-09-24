@@ -65,6 +65,45 @@
     #card-two {
         margin: 70px 0;
     }
+
+    #contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        -webkit-filter: drop-shadow(0 50px 30px #878787);
+    }
+
+    #subscribe-contact {
+        width: 300px;
+        height: 80px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #subscribe {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #subs-desc {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #email-contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 80px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    #submit-email {
+       padding: 5px 30px;
+       margin-right: 0;
+       margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -121,6 +160,9 @@
         object-fit: cover;
     }
 
+    #sec-contact-wrap {
+        height: auto;
+    }
 
-
+    
 }
